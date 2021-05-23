@@ -2,6 +2,7 @@
 
 ## Summary 
 A machine learning methodology is used in order to better predict the so called remaining useful life of a component. Using regression analysis, a relation can be computed between a number of variables and remaining life, in order to able to determine suitable points in time when maintenance is appropriate.
+Building AI course project
 
 ## Background
 An important feature of any type of machinery is the uptime, i.e. what percentage of total possible working time that the machine is operational. High uptime is necessary for any type of business to be efficient and profitable and is affected by many factors. Two factors that may decrease uptime is scheduled maintenance and unscheduled maintenance, i.e. repairing the machine. An interesting methodology to use in order to decrease both scheduled and unscheduled maintenance is predictive maintenance, which implies to gather data of a particular individual machine and use it to determine individual, perhaps unique points in time of when to carry out maintenance. Normally, one uses only some feature like working hours to decide maintenance, which could be both unnecessarily early in some cases and too late in some. 
