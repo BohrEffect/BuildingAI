@@ -1,4 +1,5 @@
-# Predicting remaining useful life
+# Project Title
+Predicting remaining useful life
 
 ## Summary 
 A machine learning methodology is used in order to better predict the so called remaining useful life of a component. Using regression analysis, a relation can be computed between a number of variables and remaining life, in order to able to determine suitable points in time when maintenance is appropriate.
