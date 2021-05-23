@@ -1,5 +1,4 @@
 # Project Title
-Final project for the Building AI course
 Predicting remaining useful life of mechanical components using linear regression analysis
 
 ## Summary 
