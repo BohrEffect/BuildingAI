@@ -1,5 +1,4 @@
-# Project Title
-Predicting remaining useful life
+# Predicting remaining useful life
 
 ## Summary 
 A machine learning methodology is used in order to better predict the so called remaining useful life of a component. Using regression analysis, a relation can be computed between a number of variables and remaining life, in order to able to determine suitable points in time when maintenance is appropriate.
@@ -38,6 +37,7 @@ main()
 ## Data sources and AI methods
 Linear regression analysis is used to find coefficients to an expression that may relate values of some features to predicted life. 
 The used data is a set of synthetically produced data that reflects true instances which could be found when gathering from a true machine. It consists of 10 000 instances of 14 features. 
+
 •	Unique ID – a number in the interval 1 – 10 000
 •	Product ID – Low(L), Medium(M) or High(H), representing product quality.
 •	Air Temperature [K]
@@ -46,6 +46,7 @@ The used data is a set of synthetically produced data that reflects true instanc
 •	Torque [Nm]
 •	Tool wear [minutes]
 •	Machine failure – 1(true) or 0(false)
+
 The last features represent the mode of failure, which is simply describing how a component has failed. These are not considered, instead the information regarding if any type of failure has occurred is deemed sufficient. Also, the unique ID is not input to the actual regression analysis as it is only an identifier and not a feature. 		
 
 
